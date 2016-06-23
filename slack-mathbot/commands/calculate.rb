@@ -10,10 +10,10 @@ module SlackMathbot
         if result && result.length > 0
           client.say(channel: data.channel, text: result)
         else
-          client.say(channel: data.channel, text: 'Got nothing.', gif: 'nothing')
+          client.say(channel: data.channel, text: 'Got nothing.')
         end
       rescue StandardError => e
-        client.say(channel: data.channel, text: "Sorry, #{e.message}.", gif: 'idiot')
+        client.say(channel: data.channel, text: "Sorry, #{e.message}.")
       end
     end
   end
