@@ -1,3 +1,4 @@
+
 module SlackMathbot
   module Commands
     class Calculate < SlackRubyBot::Commands::Base

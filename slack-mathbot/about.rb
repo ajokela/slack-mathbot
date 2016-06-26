@@ -1,7 +1,6 @@
 module SlackMathbot
   ABOUT = <<-ABOUT
     #{SlackMathbot::VERSION}
-    https://github.com/dblock/slack-mathbot
-    https://twitter.com/dblockdotorg
+    beep beep boop text machine...
   ABOUT
 end
